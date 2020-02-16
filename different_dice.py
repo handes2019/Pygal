@@ -26,7 +26,7 @@ for value in range(1, max_result+1):
 
 
 #对结果进行可视化
-hist = pygal.Bar
+hist = pygal.Bar()
 
 
 hist.title = "Result of rolling a D6 and a D10 50000 times."
